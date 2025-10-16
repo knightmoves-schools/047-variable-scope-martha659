@@ -1,6 +1,6 @@
 var distanceInMiles = 100;
 
-function estimatedArrivalTime = {
+let estimatedArrivalTime = function () {
     let milesPerHour = 50;
     return distanceInMiles / estimatedArrivalTime;
 }
