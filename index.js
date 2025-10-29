@@ -5,7 +5,8 @@ let estimatedArrivalTime = function () {
     return distanceInMiles / milesPerHour;
 }
 
-document.getElementById("result").innerHTML = estimatedArrivalTime;
+document.getElementById("result").innerHTML = estimatedArrivalTime () ;
+
 
 
 
